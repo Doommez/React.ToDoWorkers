@@ -101,7 +101,7 @@ render() {
     const {data,term,filter}=this.state
 
     const visibaleData=this.filterPost(this.searchEmp(data,term),filter)
-    console.log(visibaleData);
+    
     return (
         <div className="app">
             <AppInfo employees={employees} increased={increased}/>
